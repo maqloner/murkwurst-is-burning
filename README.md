@@ -5,7 +5,7 @@
 
 > **4:3 Look to the West, Forth comes fire, and a horde, and the Kingdoms burn**
 
-**Murkwürst is burning** is a simple village hex crawl built for FoundryVTT and inspired by the Alles Wird Brennen adventure. It can be used as is or incorporated into other campaigns. Some adventure opportunities are provided to the game master in the Hiding in the shadows table but any reason can be used to explore this damned village. The adventure includes two indoors locations to explore, the Duke's Estate and the Crypt which has been inspired by the Gregor's Folly adventure.
+“**Murkwürst is burning**” is a simple village hex crawl built for FoundryVTT and inspired by the **Alles Wird Brennen** adventure. It can be used as is or incorporated into other campaigns. Some adventure opportunities are provided to the game master in the **Hiding in the shadows** table but any reason can be used to explore this damned village. The adventure includes two indoors locations to explore, the Duke's Estate and the Crypt which has been inspired by the** Gregor's Folly** adventure.
 
 
 **Part of this adventure has been stolen and/or inspired from**  
