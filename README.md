@@ -16,7 +16,6 @@ With the permission of both authors
 
 **I take no ownership on anything provide with this adventure**  
 Heavy usage of the d100 items and trinkets table (Pelle Svensson)  
-Heavy usage of the d66 corpse plundering table (Pelle Nilsson)  
 Light usage of the Tenebrous Reliquary table (Various author)   
 Items from Tablemonger (http://www.tablemonger.com/)  
 
