@@ -1,0 +1,78 @@
+{
+    "name": "murkwurst-is-burning",
+    "title": "Murkwürst is burning",
+    "description": "Compendium pack for Murkwürst is burning.",
+    "author": "Loner",
+    "version": "1.0.0",
+    "library": "false",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "9",    
+    "url": "TODO",
+    "manifest": "TODO",
+    "download": "TODO",
+    "esmodules": [
+        "./module/module.js"
+    ],
+    "styles": [
+        "./styles/hexcrawl-dashboard.css"
+    ],
+    "dependencies": [
+        {
+            "name": "morkborg",
+            "type": "system"
+        },
+        {   
+            "name": "morkborg-3p"
+        }, 
+        {
+            "name": "fxmaster"
+        }, 
+        {
+            "name": "perfect-vision"
+        }                
+    ],
+    "packs": [
+        {
+            "name": "tables-murkwurst-is-burning",
+            "label": "Tables - Murkwürst is burning",
+            "path": "./packs/tables-murkwurst-is-burning.db",
+            "entity": "RollTable",
+            "system": "morkborg"
+        },
+        {
+            "name": "macros-murkwurst-is-burning",
+            "label": "Macros - Murkwürst is burning",
+            "path": "./packs/macros-murkwurst-is-burning.db",
+            "entity": "Macro",
+            "system": "morkborg"
+        },
+        {
+            "name": "scenes-murkwurst-is-burning",
+            "label": "Scenes - Murkwürst is burning",
+            "path": "./packs/scenes-murkwurst-is-burning.db",
+            "entity": "Scene",
+            "system": "morkborg"
+        },
+        {
+            "name": "journal-murkwurst-is-burning",
+            "label": "Journal - Murkwürst is burning",
+            "path": "./packs/journals-murkwurst-is-burning.db",
+            "entity": "JournalEntry",
+            "system": "morkborg"
+        },
+        {
+            "name": "actors-murkwurst-is-burning",
+            "label": "Actors - Murkwürst is burning",
+            "path": "./packs/actors-murkwurst-is-burning.db",
+            "entity": "Actor",
+            "system": "morkborg"
+        },
+        {
+            "name": "items-murkwurst-is-burning",
+            "label": "Items - Murkwürst is burning",
+            "path": "./packs/items-murkwurst-is-burning.db",
+            "entity": "Item",
+            "system": "morkborg"
+        }
+    ]
+}
