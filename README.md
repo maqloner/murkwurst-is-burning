@@ -1,8 +1,11 @@
+![Murkwürst is burning](https://raw.githubusercontent.com/maqloner/murkwurst-is-burning/main/images/scenes/murkwurst.png)
+
+
 # Murkwürst is burning
 
 > **4:3 Look to the West, Forth comes fire, and a horde, and the Kingdoms burn**
 
-**Murkwürst is burning** is a simple village hexcrawl built for FoundryVTT and inspired by the Alles Wird Brennen adventure. It can be used as is or incorporated into other campaigns. Some adventure opportunities are provided to the gamemaster in the Hiding in the shadows table but any reason can be used to explore this damned village. The adventures includes two indoors locations to explore, the Duke's Estate and the Crypt which has been inspired by the Gregor's Folly adventure
+**Murkwürst is burning** is a simple village hex crawl built for FoundryVTT and inspired by the Alles Wird Brennen adventure. It can be used as is or incorporated into other campaigns. Some adventure opportunities are provided to the game master in the Hiding in the shadows table but any reason can be used to explore this damned village. The adventure includes two indoors locations to explore, the Duke's Estate and the Crypt which has been inspired by the Gregor's Folly adventure.
 
 
 **Part of this adventure has been stolen and/or inspired from**  
@@ -38,7 +41,7 @@ MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell.
 
 **Manifest**: https://github.com/maqloner/murkwurst-is-burning/releases/latest/download/module.json
 
-**Notes:**
+### Notes
 - Enabling the module should import all the necessary compendium items for the adventure. 
 - A button at the top of the compendium has been added to re-import the compendium items when necessary. 
 - The FoundryVTT integration includes a dashboard for all the roll tables. Those actions are configured to only appear on their corresponding scene. 
