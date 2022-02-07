@@ -1,15 +1,13 @@
 {
     "name": "murkwurst-is-burning",
-    "title": "Murkwürst is burning",
-    "description": "Compendium pack for Murkwürst is burning.",
+    "title": "Murkwürst is burning adventure",
+    "description": "Murkwürst is burning adventure ",
     "author": "Loner",
-    "version": "1.0.0",
+    "version": "This is auto replaced",
     "library": "false",
+    "manifestPlusVersion": "1.0.0",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "9",    
-    "url": "TODO",
-    "manifest": "TODO",
-    "download": "TODO",
     "esmodules": [
         "./module/module.js"
     ],
@@ -74,5 +72,8 @@
             "entity": "Item",
             "system": "morkborg"
         }
-    ]
+    ],
+    "url": "This is auto replaced",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced"
 }
