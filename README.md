@@ -36,8 +36,9 @@ MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell.
 
 ## FoundryVTT Integration
 
-**Foundry Install Manifest**: TODO
+**Manifest**: https://github.com/maqloner/murkwurst-is-burning/releases/latest/download/module.json
 
+**Notes:**
 - Enabling the module should import all the necessary compendium items for the adventure. 
 - A button at the top of the compendium has been added to re-import the compendium items when necessary. 
 - The FoundryVTT integration includes a dashboard for all the roll tables. Those actions are configured to only appear on their corresponding scene. 
