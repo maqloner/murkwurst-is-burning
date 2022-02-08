@@ -9,20 +9,20 @@ const handleActivateDefaultScene = () => {
     if (!hasActiveScene()) {
         game.scenes.getName(getDefaultScene()).activate();
     }
-}
+};
 
 const handleFirstTimeInstall = async () => {
     if (isFirstTimeInstall()) {
         setFirstTimeInstall(false);
         await importCompendiums();
     }
-}
+};
 
 const handleDashboardUpdate = () => {
     if (isDashboardEnabled()) {
         updateHexcrawlDashboard();
     }
-}
+};
 
 const createCompendiumImportButton = (html) => {
     html
@@ -30,33 +30,32 @@ const createCompendiumImportButton = (html) => {
         .prepend(`<div class="action-buttons flexrow"><button id="btn-dashboard"><i class="fas fa-book"> </i> Import ${getModuleName()}</div>`)
         .promise()
         .done(() => {
-            $('#btn-dashboard').on('click', async e => await importCompendiums())
+            $('#btn-dashboard').on('click', async e => await importCompendiums());
         });
-}
+};
 
 const init = async () => registerSetting();
 
 const ready = async () => {
-
     if (game.user.isGM) {
         await handleFirstTimeInstall();
         handleDashboardUpdate()
     };
 
     handleActivateDefaultScene();
-}
+};
 
 const canvasReady = async () => {
     if (!game.user.isGM) return;
 
     handleDashboardUpdate();
-}
+};
 
 const renderCompendiumDirectory = async (app, html, data) => {
     if (!game.user.isGM) return;
 
-    createCompendiumImportButton(html)
-}
+    createCompendiumImportButton(html);
+};
 
 
 // While the module is active, this will track of the compendium journal name drop into a scene, which is lost when importing a scene

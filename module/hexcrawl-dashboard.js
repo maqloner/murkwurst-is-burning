@@ -5,8 +5,8 @@ class HexcrawlDashboard extends Application {
     actions = [];
 
     constructor({ actions }) {
-        super()
-        this.actions = actions.map(action => ({...action, id: foundry.utils.randomID()}));
+        super();
+        this.actions = actions.map(action => ({ ...action, id: foundry.utils.randomID() }));
     }
 
     /** @override */
@@ -24,11 +24,8 @@ class HexcrawlDashboard extends Application {
     /** @override */
     getData(options = {}) {
         const scene = game.scenes.find(scene => scene.isView);
-
         const actions = scene ? this.findSceneActions(scene) : this.actions;
-
         const data = super.getData();
-
         data.actions = actions;
         data.id = `${getCurrentModule()}-hexcrawl-dashboard`;
         data.class = 'hexcrawl-dashboard';
@@ -66,7 +63,7 @@ class HexcrawlDashboard extends Application {
     openJournal(journal) {
         game.journal.getName(journal).sheet.render(true);
     }
-}
+};
 
 let hexcrawlDashboard = null;
 export const createHexcrawlDashboard = () => {
@@ -74,14 +71,14 @@ export const createHexcrawlDashboard = () => {
         hexcrawlDashboard = new HexcrawlDashboard(getDashboardConfiguration());
         hexcrawlDashboard.update();
     }
-}
+};
 
 export const closeHexcrawlDashboard = () => {
     if (hexcrawlDashboard) {
         hexcrawlDashboard.close();
         hexcrawlDashboard = null;
     }
-}
+};
 
 export const toggleHexcrawlDashboard = (toggle) => {
     if (toggle) {
@@ -89,11 +86,11 @@ export const toggleHexcrawlDashboard = (toggle) => {
     } else {
         closeHexcrawlDashboard();
     }
-}
+};
 
 export const updateHexcrawlDashboard = () => {
     if (!hexcrawlDashboard) {
         hexcrawlDashboard = new HexcrawlDashboard(getDashboardConfiguration());
     }
     hexcrawlDashboard.update();
-}
+};

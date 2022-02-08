@@ -5,20 +5,18 @@
 
 > **4:3 Look to the West, Forth comes fire, and a horde, and the Kingdoms burn**
 
-“**Murkwürst is burning**” is a simple village hex crawl built for FoundryVTT and inspired by the **Alles Wird Brennen** adventure. It can be used as is or incorporated into other campaigns. Some adventure opportunities are provided to the game master in the **Hiding in the shadows** table but any reason can be used to explore this damned village. The adventure includes two indoors locations to explore, the Duke's Estate and the Crypt which has been inspired by the **Gregor's Folly** adventure.
+“**Murkwürst is burning**” is a hex crawl built for FoundryVTT and inspired by the **Alles Wird Brennen** adventure. It can be used as is or incorporated into other campaigns. Some adventure opportunities are provided to the game master in the **Hiding in the shadows** table but any reason can be used to explore this damned village. The adventure includes two indoors locations to explore, the Duke's Estate and the Crypt which has been inspired by the **Gregor's Folly** adventure.
 
 
-**Part of this adventure has been stolen and/or inspired from**  
+**Include portions of those adventures**  
 [Alles Wird Brennen](https://fc85057.itch.io/alles-wird-brennen "Alles Wird Brennen")  
 [Gregor's Folly](https://eyesforteeth.itch.io/gregors-folly "Gregor's Folly")  
-With the permission of both authors
+(with the permission of both authors)
 
-
-**I take no ownership on anything provide with this adventure**  
+**Tables**  
 Heavy usage of the d100 items and trinkets table (Pelle Svensson)  
 Light usage of the Tenebrous Reliquary table (Various author)   
 Items from Tablemonger (http://www.tablemonger.com/)  
-
 
 **Maps**  
 [The Village](https://inkarnate.com/explore/maps/5674250/ "The Village") (spook)  
@@ -26,7 +24,6 @@ Items from Tablemonger (http://www.tablemonger.com/)
 [Battle - Village](https://www.reddit.com/r/dungeondraft/comments/hc9rsw/poor_urban_neighborhood_city_battlemap_20x20/ "Battle - Village") (ArtIceTea)  
 Duke's Estate (homemade)  
 The Crypt (homemade)  
-
 
 **Tokens**  
 [Faces for a Dying World](https://zordvil.itch.io/faces-for-a-dying-land-vol1 "Faces for a Dying World")  \
@@ -42,7 +39,6 @@ MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell.
 
 ### Notes
 - Enabling the module should import all the necessary compendium items for the adventure. 
-- A button at the top of the compendium has been added to re-import the compendium items when necessary. 
 - The FoundryVTT integration includes a dashboard for all the roll tables. Those actions are configured to only appear on their corresponding scene. 
 - The start scene is The Village.
 - It's strongly advised to enable the Perfect Vision Module.
@@ -51,6 +47,7 @@ MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell.
 - Combats in the village can occur in one of the battle scenes provided, or in a theater of mind which is preferable for some monsters, such as the Archibishop of Flames or the Furious mob.
 - All scenes should activate at the recommended starting location.
 - Two versions of actors exist, one for the village which has a smaller token size and the other for the battle scene.
+- At the top of the compendiums panel, a button has been added to re-import the adventure compendiums when necessary. 
 
 ### Dashboard actions
 - **Book**: [the adventure](https://docs.google.com/document/d/1ZrCVtzWBW3m2QPJsaRT4zxqjHz2fMZMPNiIv6WJz5r4 "the adventure")

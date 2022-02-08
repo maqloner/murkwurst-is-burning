@@ -6,15 +6,14 @@ const repairToken = async token => await token.update({ actorId: findWorldActor(
 
 const repairScene = async scene => {
     for (let token of scene.data.tokens.filter(token => canRepairToken(token))) {
-        await repairToken(token)
+        await repairToken(token);
     }
 };
-
 
 const repairSceneTokens = async () => {
     for (let scene of game.scenes.values()) {
         await repairScene(scene);
-    }    
+    }
 };
 
 export default repairSceneTokens;

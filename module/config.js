@@ -1,9 +1,6 @@
 const configuration = {
-
     name: 'Murkwürst is burning',
-
     module: 'murkwurst-is-burning',
-
     compendiums: [
         'murkwurst-is-burning.tables-murkwurst-is-burning',
         'murkwurst-is-burning.scenes-murkwurst-is-burning',
@@ -15,7 +12,6 @@ const configuration = {
         'morkborg-3p.macros-the-tenebrous-reliquary',
         'morkborg.creatures'
     ],
-
     permissions: [{
         type: 'Actor',
         name: 'The PCs',
@@ -25,9 +21,7 @@ const configuration = {
         name: 'Murkwürst',
         permission: CONST.DOCUMENT_PERMISSION_LEVELS.OBSERVER
     }],
-
     defaultScene: 'Murkwürst',
-
     dashboard: {
         actions: [{
             type: 'journal',
