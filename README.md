@@ -8,7 +8,7 @@
 “**Murkwürst is burning**” is a hex crawl built for FoundryVTT and inspired by the **Alles Wird Brennen** adventure. It can be used as is or incorporated into other campaigns. Some adventure opportunities are provided to the game master in the **Hiding in the shadows** table but any reason can be used to explore this damned village. The adventure includes two indoors locations to explore, the Duke's Estate and the Crypt which has been inspired by the **Gregor's Folly** adventure.
 
 
-**Include portions of those adventures**  
+**Include portions of these adventures**  
 [Alles Wird Brennen](https://fc85057.itch.io/alles-wird-brennen "Alles Wird Brennen")  
 [Gregor's Folly](https://eyesforteeth.itch.io/gregors-folly "Gregor's Folly")  
 (with the permission of both authors)
