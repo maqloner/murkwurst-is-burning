@@ -36,7 +36,10 @@ MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell.
 
 ## FoundryVTT Integration
 
-**Manifest**: https://github.com/maqloner/murkwurst-is-burning/releases/latest/download/module.json
+### Installation
+1. In the FoundryVTT Add-ons Module Menu, click Install Module
+2. Enter the Manifest URL: https://github.com/maqloner/murkwurst-is-burning/releases/latest/download/module.json 
+3. Click Install
 
 ### Notes
 - Enabling the module should import all the necessary compendium items for the adventure. 
