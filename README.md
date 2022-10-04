@@ -1,5 +1,6 @@
 ![Murkwürst is burning](https://raw.githubusercontent.com/maqloner/murkwurst-is-burning/main/images/scenes/murkwurst.png)
 
+![Latest Release Download Count](https://img.shields.io/github/downloads/maqloner/murkwurst-is-burning/total)
 
 # Murkwürst is burning
 
