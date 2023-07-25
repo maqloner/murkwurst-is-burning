@@ -1,78 +1,91 @@
 {
-    "name": "murkwurst-is-burning",
-    "title": "Murkwürst is burning adventure",
-    "description": "Murkwürst is burning adventure ",
-    "author": "Loner",
-    "version": "This is auto replaced",
-    "library": "false",
-    "manifestPlusVersion": "1.0.0",
-    "minimumCoreVersion": "0.7.9",
-    "compatibleCoreVersion": "9",    
+    "id": "murkwurst-is-burning",
+    "title": "Murkwürst is Burning",
+    "description": "Murkwürst is Burning: An adventure for Mörk Borg",
+    "authors": [
+      {
+        "name": "Loner",
+        "discord": "loner3473"
+      }
+    ],
+    "version": "0.3.1",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    },
     "esmodules": [
         "./module/module.js"
     ],
     "styles": [
         "./styles/hexcrawl-dashboard.css"
     ],
-    "dependencies": [
-        {
-            "name": "morkborg",
-            "type": "system"
-        },
-        {   
-            "name": "morkborg-3p"
-        }, 
-        {
-            "name": "fxmaster"
-        }, 
-        {
-            "name": "perfect-vision"
-        }                
-    ],
+    "relationships": {
+      "systems": [{
+        "id": "morkborg",
+        "type": "system"
+      }],
+      "requires": [{
+        "id": "morkborg-3p",
+        "type": "module"
+      }]
+    },
     "packs": [
         {
             "name": "tables-murkwurst-is-burning",
             "label": "Tables - Murkwürst is burning",
             "path": "./packs/tables-murkwurst-is-burning.db",
-            "entity": "RollTable",
+            "type": "RollTable",
             "system": "morkborg"
         },
         {
             "name": "macros-murkwurst-is-burning",
             "label": "Macros - Murkwürst is burning",
             "path": "./packs/macros-murkwurst-is-burning.db",
-            "entity": "Macro",
+            "type": "Macro",
             "system": "morkborg"
         },
         {
             "name": "scenes-murkwurst-is-burning",
             "label": "Scenes - Murkwürst is burning",
             "path": "./packs/scenes-murkwurst-is-burning.db",
-            "entity": "Scene",
+            "type": "Scene",
             "system": "morkborg"
         },
         {
             "name": "journal-murkwurst-is-burning",
             "label": "Journal - Murkwürst is burning",
             "path": "./packs/journals-murkwurst-is-burning.db",
-            "entity": "JournalEntry",
+            "type": "JournalEntry",
             "system": "morkborg"
         },
         {
             "name": "actors-murkwurst-is-burning",
             "label": "Actors - Murkwürst is burning",
             "path": "./packs/actors-murkwurst-is-burning.db",
-            "entity": "Actor",
+            "type": "Actor",
             "system": "morkborg"
         },
         {
             "name": "items-murkwurst-is-burning",
             "label": "Items - Murkwürst is burning",
             "path": "./packs/items-murkwurst-is-burning.db",
-            "entity": "Item",
+            "type": "Item",
             "system": "morkborg"
         }
     ],
+    "packFolders": [
+      {
+        "name": "Murkwürst is Burning",
+        "sorting": "a",
+        "packs": [
+          "tables-murkwurst-is-burning",
+          "macros-murkwurst-is-burning",
+          "scenes-murkwurst-is-burning",
+          "journal-murkwurst-is-burning",
+          "actors-murkwurst-is-burning",
+          "items-murkwurst-is-burning"
+        ]
+    }],
     "url": "This is auto replaced",
     "manifest": "This is auto replaced",
     "download": "This is auto replaced"

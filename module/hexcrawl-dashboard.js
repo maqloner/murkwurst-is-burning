@@ -53,6 +53,9 @@ class HexcrawlDashboard extends Application {
             case 'journal':
                 this.openJournal(action.data);
                 break;
+            case 'rollTable':
+                this.rollRollTable(action.data);
+                break;                
         }
     }
 
@@ -63,6 +66,13 @@ class HexcrawlDashboard extends Application {
     openJournal(journal) {
         game.journal.getName(journal).sheet.render(true);
     }
+
+    async rollRollTable({ pack, name }) {      
+      const compendium = game.packs.get(pack);
+      const content = await compendium.getDocuments();
+      const table = content.find(i => i.name === name);
+      await table.draw({rollMode: "blindroll"});
+    }    
 };
 
 let hexcrawlDashboard = null;

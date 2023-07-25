@@ -8,9 +8,7 @@ const configuration = {
         'murkwurst-is-burning.actors-murkwurst-is-burning',
         'murkwurst-is-burning.items-murkwurst-is-burning',
         'murkwurst-is-burning.macros-murkwurst-is-burning',
-        'morkborg-3p.macros-d100-items-and-trinkets',
-        'morkborg-3p.macros-the-tenebrous-reliquary',
-        'morkborg.creatures'
+        'morkborg.mork-borg-actors'
     ],
     permissions: [{
         type: 'Actor',
@@ -80,15 +78,21 @@ const configuration = {
             icon: '/icons/svg/d20.svg',
             data: 'd66 items you can find on a corpse'
         }, {
-            type: 'macro',
+            type: 'rollTable',
             label: 'd100 Items and Trinkets',
             icon: '/icons/svg/d20.svg',
-            data: 'd100 Items and Trinkets'
+            data: {
+              pack: "morkborg-3p.mork-borg-3p-tables",
+              name: 'd100 Items and Trinkets'
+            }            
         }, {
-            type: 'macro',
+            type: 'rollTable',
             label: 'The Tenebrous Reliquary',
             icon: '/icons/svg/d20.svg',
-            data: 'The Tenebrous Reliquary'
+            data: {
+              pack: "morkborg-3p.mork-borg-3p-tables",
+              name: 'The Tenebrous Reliquary'
+            }
         }, {
             type: 'macro',
             label: 'Reaction',

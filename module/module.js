@@ -24,6 +24,11 @@ const handleDashboardUpdate = () => {
     }
 };
 
+const handleNodeDisplay = async () => {
+  await game.settings.set("core", "notesDisplayToggle", true);
+  game.canvas.draw();
+};
+
 const createCompendiumImportButton = (html) => {
     html
         .find(".directory-header")
@@ -39,7 +44,8 @@ const init = async () => registerSetting();
 const ready = async () => {
     if (game.user.isGM) {
         await handleFirstTimeInstall();
-        handleDashboardUpdate()
+        handleDashboardUpdate();
+        handleNodeDisplay();
     };
 
     handleActivateDefaultScene();

@@ -1,6 +1,7 @@
 ![Murkwürst is burning](https://raw.githubusercontent.com/maqloner/murkwurst-is-burning/main/images/scenes/murkwurst.png)
 
-![Latest Release Download Count](https://img.shields.io/github/downloads/maqloner/murkwurst-is-burning/total)
+![Latest Release Download Count](https://img.shields.io/github/downloads/maqloner/murkwurst-is-burning/latest/total) ![Total Download Count](https://img.shields.io/github/downloads/maqloner/murkwurst-is-burning/total)
+
 
 # Murkwürst is burning
 
@@ -34,12 +35,14 @@ The PCs (art by Johan Nohr, frame by iPwnedMSCS)
 
 MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell. 
 
-## FoundryVTT Integration
+## FoundryVTT integration
+### Installation - Manual - Foundry V11+
+1. In the Add-on Modules Tab, click `Install Module`
+2. Enter the Manifest URL: `https://github.com/maqloner/murkwurst-is-burning/releases/latest/download/module.json`
 
-### Installation
-1. In the FoundryVTT Add-ons Module Menu, click Install Module
-2. Enter the Manifest URL: https://github.com/maqloner/murkwurst-is-burning/releases/latest/download/module.json 
-3. Click Install
+### Installation - Manual - Foundry V9
+1. In the Add-on Modules Tab, click `Install Module`
+2. Enter the Manifest URL: `https://github.com/maqloner/murkwurst-is-burning/releases/download/0.3.0/module.json`
 
 ### Notes
 - Enabling the module should import all the necessary compendium items for the adventure. 
